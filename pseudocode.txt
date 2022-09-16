@@ -1,0 +1,36 @@
+STORE "Code A" then item = "Pencil" with price 2000
+STORE "Code B" then item = "Pen" with price 5000
+STORE "Code C" then item = "Ruler" with price 3000
+STORE "Code D" then item = "Book" with price 4000
+
+INPUT Item_Code
+IF "Code A" Then
+    PRINT item = "Pencil"
+    PRINT price = 2000
+ELSE
+IF "Code B" Then
+    PRINT item = "Pen"
+    PRINT price = 5000
+ELSE
+IF "Code C" Then
+    PRINT item = "Ruler"
+    PRINT price = 3000
+ELSE
+IF "Code D" Then
+    PRINT item = "Book"
+    PRINT price = 4000
+ELSE
+    PRINT "Nothing"
+END IF
+
+INPUT Amount
+READ Amount
+INPUT Price
+READ Price
+
+WRITE Changes
+READ Changes 
+WRITE Item_Code
+WRITE Amount
+WRITE Price
+WRITE Changes  

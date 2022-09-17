@@ -1,0 +1,8 @@
+Algorithm Cashier App
+1. Mulai
+2. Masukan Kode Barang 
+3. Masukan Jumlah Barang
+4. Menampilkan Total Harga
+5. Menampilkan uang kembalian dengan Pembayaran - Total Harga
+6. Membaca atau mencetak struk belanja
+7. selesai

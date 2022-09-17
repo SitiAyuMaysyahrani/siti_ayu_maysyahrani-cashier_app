@@ -23,14 +23,14 @@ ELSE
     PRINT "Nothing"
 END IF
 
-INPUT Amount
-READ Amount
+INPUT Quantity
+READ Quantity
 INPUT Price
 READ Price
 
 WRITE Changes
 READ Changes 
 WRITE Item_Code
-WRITE Amount
+WRITE Quantity
 WRITE Price
 WRITE Changes  
